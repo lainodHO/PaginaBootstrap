@@ -1,0 +1,55 @@
+h1{
+    background-color:rgba(255, 255, 255, 0.329);
+    color: rgb(145, 137, 137);
+    font-style: unset;
+   
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+}
+
+.img1 {
+    width: 500px;
+    height: 150px;
+    max-width: 100%;
+    height: auto;
+}
+.image-container {
+    text-align: center;
+}
+
+
+body {
+    background-image: url('imgs/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table {
+    background-color: rgba(144, 209, 209, 0.377);
+}
+
+td {
+    font-style: italic;
+    text-align: justify;
+}
+
+div [class="row"] {
+    background-color: rgba(0, 0, 0, 0.582);
+margin-top: 10px;
+padding: 10px;
+}
+
+p {
+    color: aliceblue;
+}
+
+.colortittle{
+    color: aliceblue;
+    text-decoration-color: aliceblue;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.699);
+ }

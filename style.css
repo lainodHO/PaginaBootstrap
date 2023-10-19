@@ -1,0 +1,64 @@
+body {
+
+    background-image: url('imgs/fondo.jpg');
+    background-color: rgba(161, 255, 255, 0.781);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table {
+    background-color: rgba(144, 209, 209, 0.377);
+    border-radius: 12px;
+}
+.color {
+    color: rgb(185, 159, 7);
+    border-radius: 12px;
+    font-size: 25pt;
+    font-family: 'Lucida Sans';
+}
+ a{
+    font-style: serif; 
+    font-size: 200%;
+   color: black;
+ }
+ nav{
+    background-color: rgba(0, 0, 0, 0.699);
+ }
+ a[class="dropdown-item"]{
+    background-color: rgba(226, 247, 106, 0);
+ }
+
+
+ .carousel-inner .carousel-item {
+    width: 75%
+  }
+
+  .carousel-item video {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+
+  footer {
+	background-color:#1A1A1A;
+	height: 50%;
+  color: white;
+  padding: 15px;
+}
+
+.main1 { 
+    display:flex;
+    margin:0 auto;
+  }
+  
+  a img:hover {
+      color: #fff;
+  }
+
+  .img {
+    width: 120px;
+    height: 120px;
+    border-color: #1A1A1A;
+}
